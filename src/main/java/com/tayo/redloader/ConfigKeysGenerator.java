@@ -32,10 +32,10 @@ public class ConfigKeysGenerator {
         final String redshift_username = crypto.encryptString(prov, args[4]).getResult();
         final String redshift_password = crypto.encryptString(prov, args[5]).getResult();
 
-        System.out.println("access_key=" +access_key);
+       /* System.out.println("access_key=" +access_key);
         System.out.println("access_secret_key=" +access_secret_key);
         System.out.println("redshift_username=" +redshift_username);
-        System.out.println("access_key=" +redshift_password); 
+        System.out.println("access_key=" +redshift_password); */
         
         File file = new File("redl0ader_ciphertext.txt");
         try

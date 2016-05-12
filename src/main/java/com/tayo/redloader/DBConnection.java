@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 
 public class DBConnection 
 {
-	static final String DB_URL = "jdbc:redshift://customertest1.csidc8sx7gmr.us-east-1.redshift.amazonaws.com:5439/wpredshift";
+	static final String DB_URL = "jdbc:redshift://aaaaaaaaaaa.csidc8sx7gmr.us-east-1.redshift.amazonaws.com:5439/xxxxxx";
 
 	private static final Logger logger = LoggerFactory.getLogger(DBConnection.class);
 

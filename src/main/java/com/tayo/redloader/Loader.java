@@ -25,7 +25,7 @@ public class Loader
 {
 	private  static final String BUCKET_NAME = "temitayo-redloader";
 	private static final String CONFIG_PREFIX = "config/redl0ader_ciphertext.txt";	
-	private static final String KEY_ARN = "arn:aws:kms:us-east-1:573906581002:key/37dc90dc-3f1c-4a77-a51d-a653b173fcdb "; 
+	private static final String KEY_ARN = "arn:aws:kms:us-east-1:11111111111:key/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx"; 
 	//private static final String tableName = "RedShiftS3FileSweeper2";
 	
 	

@@ -28,7 +28,7 @@ public class KmsKeyHelper
 	        	 CryptoResult<String, KmsMasterKey> decryptResult = new AwsCrypto().decryptString(prov, ciphertext);
 	        	 logger.info("After Crypto");
 	        	 resultList.add(decryptResult.getResult());
-	        	 logger.info(decryptResult.getResult());
+	        	// logger.info(decryptResult.getResult());
 	        	 Thread.sleep(10);
 	        }	        
 	        logger.info("Keys obtained returnin...keys");
